@@ -1,0 +1,49 @@
+.App {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(35, 70, 35);
+}
+.SearchContainer {
+  flex: 1;
+  width: 40%;
+  height: 25px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  background-color: rgb(233, 232, 232);
+  justify-content: center;
+  width: 70%;
+  padding: 7px;
+}
+.box .Icon{
+  color: rgb(15, 15, 15);
+  font-size: 5px;
+}
+.SearchContainer input {
+  width: 90%;
+  height: 27px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+}
+.SearchContainer input::placeholder{
+  font-size: 16px;
+  color: rgb(0, 0, 0)
+}
+.CardContainer {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

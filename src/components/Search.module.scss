@@ -1,0 +1,41 @@
+$color: hwb(0 4% 96%);
+$Main-color: #ececec;
+$UserName-background: rgb(178, 177, 177);
+
+.Container {
+  display: flex;
+  width: 220px;
+  height: 200px;
+  color: $color;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  background: $Main-color;
+  margin-bottom: 10px;
+  .UserName {
+    padding: 0 0px;
+    display: flex;
+    background-color: $UserName-background;
+    h3 {
+      flex: 2.3;
+    }
+    .Logo {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
+  }
+  .Details {
+    flex: 2;
+    display: flex;
+    column-gap: 10px;
+    flex-direction: column;
+  }
+}
